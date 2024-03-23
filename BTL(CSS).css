@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: #333;
     color: #fff;
@@ -23,7 +22,7 @@ header img {
     max-width: 300px;
     height: auto;
     margin-top: 10px;
-    margin-left: 550px;
+    margin-left: 650px;
    
 }
 
@@ -53,12 +52,12 @@ header img {
 #menu li:hover .sub-menu {
     display: block;
    }
-  #menu a {
+#menu a {
     text-decoration: none;
     color: #fff;
     display: block;
   }
-  #menu a:hover {
+#menu a:hover {
     background: #F1F1F1;
     color: #333;
   }
@@ -130,4 +129,110 @@ footer {
     color: white;
     background-color: green;
     border-radius: 10px;
+}
+
+
+/* CSS phần liên hệ */
+
+.lien {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lien input[type="text"],
+.lien textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.lien input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lien input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* CSS phần hỏi đáp */
+
+.hoi {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.hoi h2 {
+    margin-top: 0;
+}
+
+.hoi p {
+    margin-bottom: 10px;
+}
+
+
+/* CSS phần chính sách */
+
+.chinh {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chinh h2 {
+    margin-top: 0;
+}
+
+.chinh p {
+    margin-bottom: 10px;
+}
+
+
+/* CSS phần diễn đàn */
+
+.dien {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dien h2 {
+    margin-top: 0;
+}
+
+.dien .dan {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.dien .dan:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.dien .dan h3 {
+    margin-top: 0;
+}
+
+.dien .dan p {
+    margin-bottom: 10px;
+}
+
+.dien .dan .author {
+    font-style: italic;
 }
