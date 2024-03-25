@@ -1,0 +1,13 @@
+.article-thumbnail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.article-thumbnail img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+.article-thumbnail h2 {
+    margin: 0;
+}

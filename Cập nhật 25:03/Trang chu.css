@@ -1,0 +1,254 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 650px;
+   
+}
+
+#menu ul {
+    background: #333;
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    position: relative;
+  }
+
+.sub-menu {
+    display: none;
+    position: absolute;
+  }
+.sub-menu li {
+    margin-left: 0 !important;
+   }
+
+#menu li:hover .sub-menu {
+    display: block;
+   }
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+#menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transform-origin: center center;
+    transition: transform 1s ease-in-out;
+}
+
+.banner img:hover {
+    transform: scale(1.2);
+}
+.message-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fefefe;
+    transition: transform 0.3s ease-in-out;
+}
+
+.message-button:hover {
+    background-color: #efd90b;
+}
+.message-button img {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.message-button .message-content {
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.product {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.footer1{
+    text-align: center;
+}
+#chu{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dat{
+    color: white;
+    background-color: coral;
+    border-radius: 10px;
+}
+.mua{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.lien {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lien input[type="text"],
+.lien textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.lien input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lien input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* CSS phần hỏi đáp */
+
+.hoi {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.hoi h2 {
+    margin-top: 0;
+}
+
+.hoi p {
+    margin-bottom: 10px;
+}
+
+.chinh {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chinh h2 {
+    margin-top: 0;
+}
+
+.chinh p {
+    margin-bottom: 10px;
+}
+
+
+.dien {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dien h2 {
+    margin-top: 0;
+}
+
+.dien .dan {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.dien .dan:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.dien .dan h3 {
+    margin-top: 0;
+}
+
+.dien .dan p {
+    margin-bottom: 10px;
+}
+
+.dien .dan .author {
+    font-style: italic;
+}
